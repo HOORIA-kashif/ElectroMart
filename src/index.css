@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import "tailwindcss";
+
+*{
+  font-family: "Inter", sans-serif;
+  }
+body{
+  margin: 0;
+  padding: 0;
+box-sizing: border-box;
+}
+.top-bar {
+  background-color: #f8f8f8; 
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd; 
+}
+
+/* Overlay for small screens */
+#mobile-restriction-overlay {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9); 
+  color: white;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Arial, sans-serif;
+ 
+}
+
+#mobile-restriction-overlay h1 {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+#mobile-restriction-overlay p {
+  font-size: 16px; 
+  margin-bottom: 24px;
+  text-align: center;
+  margin-left: 50px;
+}
+
+#mobile-restriction-overlay button {
+  background-color: #facc15; 
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#mobile-restriction-overlay button:hover {
+    background-color: #eab308; }
+
+@theme {
+  --color-primary: #ffd701;
+  --color-secondary: #faf5ee;
+  --color-black: #1e1e1e;
+  --color-body-text: #676767;
+  --color-white: #ffffff;
+  --color-price: #26A555;
+  --color-background: #ECECEC;
+  --color-input-text: #373735;
+  
+}
