@@ -8,7 +8,7 @@ import HomePage from "../pages/HomePage";
 import Shop from "../pages/Shop";
 import CartPage from "../pages/CartPage";
 import  ContactPage from "../pages/ContactPage";
-import Login from "../pages/login"; 
+import Login from "../pages/LoginPage"
 
 
 const AppRoutes = () => (
@@ -49,7 +49,7 @@ const router = createBrowserRouter([
       },
       {
         path:"login",
-        element:<Login/>
+       element:<Login/>
       }
     ],
   },
