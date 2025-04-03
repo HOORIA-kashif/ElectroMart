@@ -16,7 +16,7 @@ const ImageSlider = () => {
   const images = [image, image1, image2,image3,image4,image5];
 
   return (
-    <div className="w-full max-w-5xl mx-auto">
+    <div className="w-full  mx-auto">
       <Swiper
         modules={[Pagination, Autoplay]}
         spaceBetween={50}
